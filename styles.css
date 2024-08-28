@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.institution {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.institution-logo {
+    width: 150px;
+    height: auto;
+}
+
+.person {
+    background: #fff; /* Default background */
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.person img {
+    width: px; /* Increased width */
+    height: 200px; /* Increased height */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.person p {
+    margin: 10px 0;
+}
+
+.person .social-links {
+    margin-top: 10px;
+}
+
+.person .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.person .social-links a.email {
+    color: #d44;
+}
+
+.person .social-links a.linkedin {
+    color: #0077b5;
+}
+
+.person .social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Individual backgrounds for each person */
+#person1 {
+    background: #e0f7fa; /* Light Cyan */
+}
+
+#person2 {
+    background: #fce4ec; /* Light Pink */
+}
+
+#person3 {
+    background: #e8f5e9; /* Light Green */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.1px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
